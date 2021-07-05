@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--To diffrentiate between the selected and the unselected one-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#DDA0DD"/>
+    <corners android:radius="50dp"/>
+</shape>

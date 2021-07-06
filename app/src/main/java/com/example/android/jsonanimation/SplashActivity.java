@@ -64,10 +64,10 @@ public class SplashActivity extends AppCompatActivity {
         viewPager.setAnimation(anim1);
 
         // Animation in JAVA itself
-        splashImg.animate().translationY(-20000).setDuration(1000).setStartDelay(4000);
-        logo.animate().translationY(20000).setDuration(1000).setStartDelay(4000);
-        appName.animate().translationY(20000).setDuration(1000).setStartDelay(4000);
-        burgerAnim.animate().translationY(20000).setDuration(1000).setStartDelay(4000);
+        splashImg.animate().translationY(-20000).setDuration(10000).setStartDelay(4000);
+        logo.animate().translationY(20000).setDuration(10000).setStartDelay(4000);
+        appName.animate().translationY(20000).setDuration(10000).setStartDelay(4000);
+        burgerAnim.animate().translationY(20000).setDuration(10000).setStartDelay(4000);
 
         // Learning to Use alpha;
 //        splashImg.setAlpha(1f);

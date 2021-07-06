@@ -33,7 +33,7 @@ public class DashBoardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dash_board);
 
 
-        ArrayList<StaticRvModel> item = new ArrayList<>();
+        final ArrayList<StaticRvModel> item = new ArrayList<>();
         item.add(new StaticRvModel(R.drawable.pizza_image3, "Pizza"));
         item.add(new StaticRvModel(R.drawable.pizza_image3, "Pizza"));
         item.add(new StaticRvModel(R.drawable.pizza_image3, "Pizza"));
